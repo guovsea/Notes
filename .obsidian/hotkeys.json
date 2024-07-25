@@ -1,0 +1,30 @@
+{
+  "cmdr:macro-0": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl"
+      ],
+      "key": "X"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "A"
+    }
+  ],
+  "obsidian-auto-link-title:auto-link-title-normal-paste": [],
+  "easy-typing-obsidian:easy-typing-paste-without-format": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "V"
+    }
+  ],
+  "editor:toggle-checklist-status": []
+}

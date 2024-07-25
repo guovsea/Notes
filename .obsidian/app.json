@@ -1,0 +1,16 @@
+{
+  "livePreview": true,
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "vimMode": false,
+  "promptDelete": false,
+  "attachmentFolderPath": "./attachments",
+  "newFileLocation": "current",
+  "newFileFolderPath": "000inbox",
+  "showLineNumber": true,
+  "useTab": false,
+  "autoConvertHtml": true,
+  "showUnsupportedFiles": true,
+  "propertiesInDocument": "visible"
+}

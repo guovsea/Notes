@@ -1,0 +1,15 @@
+{
+  "accentColor": "#5c8af5",
+  "textFontFamily": "",
+  "monospaceFontFamily": "MesloLGS NF",
+  "translucency": false,
+  "cssTheme": "Minimal",
+  "baseFontSize": 16,
+  "interfaceFontFamily": "MesloLGS NF",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "extended-colorschemes"
+  ],
+  "baseFontSizeAction": false,
+  "nativeMenus": true
+}

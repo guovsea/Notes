@@ -1,0 +1,326 @@
+{
+  "main": {
+    "id": "fd3b57f9240c5f1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f1abedbecb996fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9131bf83ef018d5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300学习记录/聊天室项目/01-day.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccae044543becec5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300学习记录/聊天室项目/02-day.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1360ada2ae11373c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400编程技术/3A0设计模式/单例模式 Singleton.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f815a6039cfb2c3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400编程技术/3A0设计模式/Network Programming with Qt.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57ca22be69773cb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400编程技术/310c++/CRTP 奇异递归模板模式.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e2d6d79a95961dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400编程技术/370Qt/定义 Q_OBJECT 宏的类要先继承 QObject 类.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a699cfcb95473b53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400编程技术/340操作系统/内存对齐面试题.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fdd4564a04648c2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400编程技术/361CMake/cmake-examples 学习笔记.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f40280a30611c0e5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9c9bb773f4e8cf15",
+    "type": "split",
+    "children": [
+      {
+        "id": "2085bc2f3016f0b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "932e5d4edea842e0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1ebb776cd062281c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "find_package",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "37dd978c6bff8de3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "d14ba0e0d4e1165a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 281.5
+  },
+  "right": {
+    "id": "248d8697f6487135",
+    "type": "split",
+    "children": [
+      {
+        "id": "0653c31a8dd25343",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67916f00b11636eb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "400编程技术/361CMake/cmake-examples 学习笔记.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "04dee46c72b22ffc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "400编程技术/361CMake/cmake-examples 学习笔记.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6337a3e7acc8b3ae",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "6951cdf059ad39e4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "400编程技术/361CMake/cmake-examples 学习笔记.md"
+              }
+            }
+          },
+          {
+            "id": "137bef6d9f100362",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 215.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-memos:Thino": false,
+      "obsidian-file-cleaner:清理文件": false,
+      "graph:查看关系图谱": false,
+      "switcher:打开快速切换": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "workspaces:管理工作区布局": false,
+      "random-note:开始漫游笔记": false,
+      "canvas:新建白板": false
+    }
+  },
+  "active": "fdd4564a04648c2e",
+  "lastOpenFiles": [
+    "400编程技术/361CMake/未命名 1.md",
+    "400编程技术/361CMake/cmake-examples 学习笔记.md",
+    "400编程技术/361CMake/CMake 配置Qt项目.md",
+    "400编程技术/361CMake/CMake 构建 gtest.md",
+    "400编程技术/361CMake/使用 find_package 引入外部依赖包.md",
+    "400编程技术/340操作系统/CSAPP.md",
+    "400编程技术/310c++/内存对齐.md",
+    "400编程技术/340操作系统/内存对齐面试题.md",
+    "400编程技术/340操作系统/共享存储映射.md",
+    "400编程技术/370Qt/JSON support in Qt.md",
+    "400编程技术/3A0设计模式/Network Programming with Qt.md",
+    "400编程技术/3A0设计模式/单例模式 Singleton.md",
+    "400编程技术/370Qt/定义 Q_OBJECT 宏的类要先继承 QObject 类.md",
+    "400编程技术/370Qt/未命名 1.md",
+    "400编程技术/370Qt/Qt常用数据类型.md",
+    "400编程技术/370Qt/Qt 踩坑： 链接错误，有虚函数没有实现.md",
+    "400编程技术/370Qt/信号和槽.md",
+    "400编程技术/370Qt/ToolTip.md",
+    "400编程技术/370Qt/Event 系统.md",
+    "400编程技术/370Qt/Layout.md",
+    "400编程技术/370Qt/sizeHint、minimumSizeHint、sizePolicy.md",
+    "400编程技术/370Qt/QWidget.md",
+    "400编程技术/370Qt/Qt 安装.md",
+    "400编程技术/310c++/Singleton template.md",
+    "400编程技术/310c++/生存期 Lifetime.md",
+    "400编程技术/310c++/三五零法则（The rule of three、five、zero）.md",
+    "300学习记录/聊天室项目",
+    "100工作记录/sylar",
+    "400编程技术/310c++/attachments/智能指针-1.png",
+    "400编程技术/310c++/attachments/智能指针.png",
+    "300学习记录/370兴趣爱好",
+    "300学习记录/360通识知识",
+    "200生活记录/210日记",
+    "未命名.canvas",
+    "Untitled.loom",
+    "400编程技术/3B0Python",
+    "400编程技术/3A0设计模式/attachments/门面模式 Faced.png",
+    "400编程技术/3A0设计模式/attachments/门面模式 Faced-1.png",
+    "400编程技术/3A0设计模式/attachments/适配器模式.png",
+    "400编程技术/3A0设计模式/attachments/迭代器模式 Iterator.png",
+    "400编程技术/3A0设计模式/attachments/责任链模式 Chain of Responsibility.png",
+    "400编程技术/3A0设计模式/attachments/访问者模式 Visotor.png",
+    "400编程技术/3A0设计模式/attachments/观察者模式 Observer.png",
+    "400编程技术/3A0设计模式/attachments/装饰器模式 Decorator.png",
+    "400编程技术/3A0设计模式/attachments",
+    "400编程技术/3A0设计模式",
+    "400编程技术/390Linux/attachments"
+  ]
+}

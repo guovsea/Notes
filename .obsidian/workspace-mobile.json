@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "69b55f9a163ea838",
+    "type": "split",
+    "children": [
+      {
+        "id": "721d9db0aa014d09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43a31711ff6f3014",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400编程技术/310c++/构造函数.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ec4548c32ae4854",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "56672a643515d021",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "64742819cb51968f",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "3d8c1b85abfd4998",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "b2e8067537d98638",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      },
+      {
+        "id": "6c3339227037ddd9",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "0c1024afe5cfcb7c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3d7bc476860b0813",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "400编程技术/310c++/构造函数.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "7620a25b721a5a11",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "400编程技术/310c++/构造函数.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "0896e1b3a4d2dede",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "400编程技术/310c++/构造函数.md"
+          }
+        }
+      },
+      {
+        "id": "b4bf345419262afb",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-file-cleaner:清理文件": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-memos:Thino": false
+    }
+  },
+  "active": "43a31711ff6f3014",
+  "lastOpenFiles": [
+    "400编程技术/310c++/智能指针管理数组.md",
+    "400编程技术/361CMake/Morden CMake 基础语法.md",
+    "400编程技术/360工具/vscode.md",
+    "400编程技术/360工具/docker.md",
+    "400编程技术/360工具/编译过程.md",
+    "400编程技术/361CMake/Morden CMake.md",
+    "400编程技术/340操作系统/Linux 命令.md",
+    "Homepage.md",
+    "400编程技术/310c++/CRTP 奇异递归模板模式.md",
+    "400编程技术/310c++/编译单元 Translation unit.md",
+    "200生活记录/210日记/2024-04-13.md",
+    "400编程技术/310c++/重载 operator new delete.md",
+    "500个人提升/PKM.md",
+    "000零碎记录/MVC 模式.md",
+    "100工作记录/140毕设/初稿修订.md",
+    "200生活记录/210日记/2024-04-14.md",
+    "400编程技术/310c++/返回值优化 RVO.md",
+    "400编程技术/310c++/迭代器.md",
+    "000零碎记录/020问题记录/020灵感/000_坚果云闪电下载介绍.url.nssyncsc",
+    "400编程技术/380数据结构和算法/理解/000_坚果云闪电下载介绍.url.nssyncsc",
+    "100工作记录/TinyWebServer/attachments/000_坚果云闪电下载介绍.url.nssyncsc",
+    "200生活记录/210日记/000_坚果云闪电下载介绍.url.nssyncsc",
+    "300资料记录/370兴趣爱好/000_坚果云闪电下载介绍.url.nssyncsc",
+    "400编程技术/3B0Python/000_坚果云闪电下载介绍.url.nssyncsc",
+    "400编程技术/310c++/effective C++/000_坚果云闪电下载介绍.url.nssyncsc",
+    "300资料记录/360通识知识/000_坚果云闪电下载介绍.url.nssyncsc",
+    "100工作记录/120个人项目/000_坚果云闪电下载介绍.url.nssyncsc",
+    "200生活记录/000_坚果云闪电下载介绍.url.nssyncsc",
+    "400编程技术/340操作系统/attachments/断开TCP连接.png",
+    "400编程技术/340操作系统/attachments/消息队列.png",
+    "400编程技术/340操作系统/attachments/Linux 文件数据完整架构图.png",
+    "400编程技术/340操作系统/attachments/不同进程不共享struct file.png",
+    "400编程技术/360工具/attachments/Pasted image 20230831124654.png",
+    "400编程技术/3A0设计模式/attachments/抽象工厂模式 Abstract Factory.png",
+    "400编程技术/380数据结构和算法/题目/72. 编辑距离.md",
+    "400编程技术/380数据结构和算法/题目/KPM.md",
+    "400编程技术/380数据结构和算法/题目/46. 全排列.md",
+    "400编程技术/360工具/GDB/GNU Binutils.md",
+    "000零碎记录/010代码片段/合并升序链表非递归.md",
+    "000零碎记录/010代码片段/命令行中文乱码.md",
+    "400编程技术/310c++/C++ 中文编码.md",
+    "100工作记录/140毕设/密码本.md",
+    "400编程技术/310c++/attachments/智能指针-1.png",
+    "400编程技术/310c++/attachments/智能指针.png",
+    "400编程技术/3A0设计模式/attachments/适配器模式.png",
+    "400编程技术/3A0设计模式/attachments/享元模式 FlyWidget.png"
+  ]
+}
