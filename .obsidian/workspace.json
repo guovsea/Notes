@@ -4,125 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "4f1abedbecb996fe",
+        "id": "e5c27393b0931098",
         "type": "tabs",
         "children": [
           {
-            "id": "9131bf83ef018d5f",
+            "id": "aea84361a222b0ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300学习记录/聊天室项目/01-day.md",
+                "file": "400编程技术/380数据结构和算法/理解(archive)/DFS - atoi为例.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ccae044543becec5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300学习记录/聊天室项目/02-day.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1360ada2ae11373c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400编程技术/3A0设计模式/单例模式 Singleton.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f815a6039cfb2c3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400编程技术/3A0设计模式/Network Programming with Qt.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "57ca22be69773cb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400编程技术/310c++/CRTP 奇异递归模板模式.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e2d6d79a95961dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400编程技术/370Qt/定义 Q_OBJECT 宏的类要先继承 QObject 类.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a699cfcb95473b53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400编程技术/340操作系统/内存对齐面试题.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fdd4564a04648c2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400编程技术/361CMake/cmake-examples 学习笔记.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f40280a30611c0e5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "find_package",
+                "query": " 状态机",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -179,7 +77,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "400编程技术/361CMake/cmake-examples 学习笔记.md",
+                "file": "400编程技术/380数据结构和算法/理解(archive)/DFS - atoi为例.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "400编程技术/361CMake/cmake-examples 学习笔记.md",
+                "file": "400编程技术/380数据结构和算法/理解(archive)/DFS - atoi为例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "400编程技术/361CMake/cmake-examples 学习笔记.md"
+                "file": "400编程技术/380数据结构和算法/理解(archive)/DFS - atoi为例.md"
               }
             }
           },
@@ -261,8 +160,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-memos:Thino": false,
-      "obsidian-file-cleaner:清理文件": false,
       "graph:查看关系图谱": false,
       "switcher:打开快速切换": false,
       "templates:插入模板": false,
@@ -270,13 +167,17 @@
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
-      "canvas:新建白板": false
+      "canvas:新建白板": false,
+      "obsidian-memos:Thino": false,
+      "obsidian-file-cleaner:清理文件": false
     }
   },
-  "active": "fdd4564a04648c2e",
+  "active": "aea84361a222b0ca",
   "lastOpenFiles": [
-    "400编程技术/361CMake/未命名 1.md",
+    "400编程技术/360工具/Git/git 配置信息.md",
+    "400编程技术/360工具/Git/Git.md",
     "400编程技术/361CMake/cmake-examples 学习笔记.md",
+    "400编程技术/361CMake/未命名 1.md",
     "400编程技术/361CMake/CMake 配置Qt项目.md",
     "400编程技术/361CMake/CMake 构建 gtest.md",
     "400编程技术/361CMake/使用 find_package 引入外部依赖包.md",
@@ -299,8 +200,6 @@
     "400编程技术/370Qt/QWidget.md",
     "400编程技术/370Qt/Qt 安装.md",
     "400编程技术/310c++/Singleton template.md",
-    "400编程技术/310c++/生存期 Lifetime.md",
-    "400编程技术/310c++/三五零法则（The rule of three、five、zero）.md",
     "300学习记录/聊天室项目",
     "100工作记录/sylar",
     "400编程技术/310c++/attachments/智能指针-1.png",
