@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "400编程技术/380数据结构和算法/理解(archive)/DFS - atoi为例.md",
+                "file": "400编程技术/361CMake/变量.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8930a0273dba376",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400编程技术/361CMake/create a package.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d07ce78e3f28f14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400编程技术/361CMake/best practice.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,8 +104,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "400编程技术/380数据结构和算法/理解(archive)/DFS - atoi为例.md",
+                "file": "400编程技术/361CMake/best practice.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "400编程技术/380数据结构和算法/理解(archive)/DFS - atoi为例.md",
+                "file": "400编程技术/361CMake/best practice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "400编程技术/380数据结构和算法/理解(archive)/DFS - atoi为例.md"
+                "file": "400编程技术/361CMake/best practice.md"
               }
             }
           },
@@ -172,13 +198,18 @@
       "obsidian-file-cleaner:清理文件": false
     }
   },
-  "active": "aea84361a222b0ca",
+  "active": "8d07ce78e3f28f14",
   "lastOpenFiles": [
+    "400编程技术/361CMake/未命名 1.md",
+    "400编程技术/361CMake/best practice.md",
+    "400编程技术/361CMake/create a package.md",
+    "400编程技术/361CMake/变量.md",
+    "400编程技术/370Qt/qss.md",
+    "400编程技术/380数据结构和算法/理解(archive)/DFS - atoi为例.md",
     "400编程技术/361CMake/add_custom_command and add_custom_target.md",
     "400编程技术/360工具/Git/git 配置信息.md",
     "400编程技术/360工具/Git/Git.md",
     "400编程技术/361CMake/cmake-examples 学习笔记.md",
-    "400编程技术/361CMake/未命名 1.md",
     "400编程技术/361CMake/CMake 配置Qt项目.md",
     "400编程技术/361CMake/CMake 构建 gtest.md",
     "400编程技术/361CMake/使用 find_package 引入外部依赖包.md",
@@ -195,11 +226,6 @@
     "400编程技术/370Qt/Qt 踩坑： 链接错误，有虚函数没有实现.md",
     "400编程技术/370Qt/信号和槽.md",
     "400编程技术/370Qt/ToolTip.md",
-    "400编程技术/370Qt/Event 系统.md",
-    "400编程技术/370Qt/Layout.md",
-    "400编程技术/370Qt/sizeHint、minimumSizeHint、sizePolicy.md",
-    "400编程技术/370Qt/QWidget.md",
-    "400编程技术/370Qt/Qt 安装.md",
     "300学习记录/聊天室项目",
     "100工作记录/sylar",
     "400编程技术/310c++/attachments/智能指针-1.png",
