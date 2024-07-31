@@ -261,8 +261,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-memos:Thino": false,
-      "obsidian-file-cleaner:清理文件": false,
       "graph:查看关系图谱": false,
       "switcher:打开快速切换": false,
       "templates:插入模板": false,
@@ -270,24 +268,26 @@
       "daily-notes:打开/创建今天的日记": false,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
-      "canvas:新建白板": false
+      "canvas:新建白板": false,
+      "obsidian-memos:Thino": false,
+      "obsidian-file-cleaner:清理文件": false
     }
   },
   "active": "fdd4564a04648c2e",
   "lastOpenFiles": [
-    "400编程技术/361CMake/未命名 1.md",
+    "400编程技术/361CMake/add_custom_command and add_custom_target.md",
+    "400编程技术/370Qt/定义 Q_OBJECT 宏的类要先继承 QObject 类.md",
+    "400编程技术/340操作系统/内存对齐面试题.md",
     "400编程技术/361CMake/cmake-examples 学习笔记.md",
     "400编程技术/361CMake/CMake 配置Qt项目.md",
     "400编程技术/361CMake/CMake 构建 gtest.md",
     "400编程技术/361CMake/使用 find_package 引入外部依赖包.md",
     "400编程技术/340操作系统/CSAPP.md",
     "400编程技术/310c++/内存对齐.md",
-    "400编程技术/340操作系统/内存对齐面试题.md",
     "400编程技术/340操作系统/共享存储映射.md",
     "400编程技术/370Qt/JSON support in Qt.md",
     "400编程技术/3A0设计模式/Network Programming with Qt.md",
     "400编程技术/3A0设计模式/单例模式 Singleton.md",
-    "400编程技术/370Qt/定义 Q_OBJECT 宏的类要先继承 QObject 类.md",
     "400编程技术/370Qt/未命名 1.md",
     "400编程技术/370Qt/Qt常用数据类型.md",
     "400编程技术/370Qt/Qt 踩坑： 链接错误，有虚函数没有实现.md",
