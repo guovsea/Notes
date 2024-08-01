@@ -19,3 +19,67 @@ namespace {
     int i = 1;
 }
 ```
+
+Code:
+
+```cpp
+# a.cpp
+int HelpFunc(int a, int b) {
+    return a + b;
+}
+
+# b.cpp
+int HelpFunc(int a, int b) {
+    return a / b;
+}
+
+# main.cpp
+#include <iostream>
+int main(int argc, char const *argv[])
+{
+    std::cout << "hello world\n";
+    return 0;
+}
+
+```
+
+result:
+
+```shell
+ % g++ -o app main.cpp a.cpp b.cpp 
+/usr/bin/ld: /tmp/cc7NesvN.o: in function `HelpFunc(int, int)':
+b.cpp:(.text+0x0): multiple definition of `HelpFunc(int, int)'; /tmp/ccwhhRQO.o:a.cpp:(.text+0x0): first defined here
+collect2: error: ld returned 1 exit status
+```
+> **链接阶段的错误**
+
+使用匿名空间后：
+
+```cpp
+# a.cpp
+namespace {
+int HelpFunc(int a, int b) {
+    return a + b;
+}
+} 
+
+# b.cpp
+namespace {
+int HelpFunc(int a, int b) {
+    return a / b;
+}
+}
+# main.cpp
+#include <iostream>
+int main(int argc, char const *argv[])
+{
+    std::cout << "hello world\n";
+    return 0;
+}
+
+```
+
+```shell
+% g++ -o app main.cpp a.cpp b.cpp  # OK 
+```
+

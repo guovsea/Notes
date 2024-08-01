@@ -2,7 +2,25 @@
 tags:
   - cpp/技巧
 ---
+**不要在宏中使用++**
 
+```cpp
+#define ISDIGIT(ch) ((ch) >= '0' && (ch) <= '9')
+#define ISDIGIT(ch) ((ch) >= '0' && (ch) <= '9')
+static int lept_parse_number(lept_context* c, lept_value* v) {
+	const char* p = c->json;
+	if (*p == '-') ++p;
+	if (*p == '0') {
+		++p;
+	} else {
+		if (!ISDIGIT1To9(*p++)) return LEPT_PARSE_INVALID_VALUE;
+		// 消耗掉所有数字
+		for (; ISDIGIT(*p);++p);
+	}
+}
+```
+
+**在宏中使用 ++，实际可能会调用多次++**。
 ## 基本语法
 
 ## `#define` 用法
