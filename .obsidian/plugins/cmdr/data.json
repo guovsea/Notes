@@ -2,7 +2,14 @@
   "confirmDeletion": true,
   "showAddCommand": true,
   "debug": false,
-  "editorMenu": [],
+  "editorMenu": [
+    {
+      "id": "workspace:copy-url",
+      "icon": "lucide-copy",
+      "name": "复制 Obsidian 链接",
+      "mode": "any"
+    }
+  ],
   "fileMenu": [],
   "leftRibbon": [],
   "rightRibbon": [],

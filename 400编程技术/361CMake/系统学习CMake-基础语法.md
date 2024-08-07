@@ -273,3 +273,11 @@ If the file has the extension of `.cmake`, it is called a module and we don’t
 ```cmake
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/mymodules")
 ```
+
+模块特指的是以 `.config` 结尾的文件。`CMAKE_MODULE_PATH` 只对模块文件起作用
+
+### 普通文件
+
+普通文本文件无法通过 `CMAKE_MODULE_PATH` 指定所在路径。
+
+要想 include 普通文本文件，只能将文本文件放在 `include` 所在的 `CMakeLists.txt` 的**同级目录下**
