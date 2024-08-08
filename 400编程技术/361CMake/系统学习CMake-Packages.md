@@ -60,7 +60,7 @@ install(EXPORT ${EXPORT_NAME}Targets
 )
 ```
 
-3. 生成 `<包名>Config.cmake` 文件
+3. 以 Config.cmake.in 作为一个模板生成 `<包名>Config.cmake` 文件
 
 ```cmake
 configure_file(
@@ -74,6 +74,9 @@ install(FILES
     DESTINATION lib/cmake
 )
 EXPORT_NAME
+```
+
+可以在配置文件中添加上游包的更多信息
 
 ```cmake
 # 模版文件 Config.cmake.in
@@ -83,9 +86,18 @@ EXPORT_NAME
 
 include("${CMAKE_CURRENT_LIST_DIR}/@EXPORT_NAME@Targets.cmake")
 
-# 设置包含目录和库目录为相对于当前配置文件所在的目录
+# 添加更多信息
 set(@EXPORT_NAME@_INCLUDE_DIR "${CMAKE_CURRENT_LIST_DIR}/../../../include")
 set(@EXPORT_NAME@_LIBRARY_DIR "${CMAKE_CURRENT_LIST_DIR}/../../../lib")
 set(@EXPORT_NAME@_RUNTIME_DIR "${CMAKE_CURRENT_LIST_DIR}/../../../bin")
 ```
 
+拷贝dll
+
+```cmake
+add_custom_command(TARGET ${PROJECT_NAME}
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${ScriptEditor_RUNTIME_DIR}/$<CONFIG>
+    $<TARGET_FILE_DIR:${PROJECT_NAME}>
+)
+```
