@@ -1,0 +1,1 @@
+A _reentrant_ function can also becalled simultaneously from multiple threads, but only if each invocation uses its own data.
