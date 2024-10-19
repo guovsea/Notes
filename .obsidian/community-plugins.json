@@ -4,7 +4,6 @@
   "obsidian-paste-image-rename",
   "obsidian-minimal-settings",
   "file-explorer-note-count",
-  "obsidian-memos",
   "obsidian-quiet-outline",
   "obsidian-style-settings",
   "obsidian-tasks-plugin",
@@ -15,6 +14,7 @@
   "calendar",
   "contribution-graph",
   "dataview",
-  "obsidian-kanban",
-  "obsidian-git"
+  "obsidian-git",
+  "templater-obsidian",
+  "quickadd"
 ]

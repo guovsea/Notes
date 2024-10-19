@@ -68,4 +68,4 @@ int main(int argc, const char** argv) {
 
 > `\`后面不能有空格，否则会 warning: backslash and newline separated by space
 
-[[GETSET 宏 快速设置值类型的成员变量]]
+[[GET SET 宏 快速设置值类型的成员变量]]

@@ -26,5 +26,15 @@
       "key": "V"
     }
   ],
-  "editor:toggle-checklist-status": []
+  "editor:toggle-checklist-status": [],
+  "workspace:goto-tab-8": [],
+  "templater-obsidian:create-9": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ]
 }

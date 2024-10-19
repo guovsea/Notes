@@ -15,7 +15,14 @@
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
-  "pageHeader": [],
+  "pageHeader": [
+    {
+      "id": "quickadd:runQuickAdd",
+      "icon": "align-center",
+      "name": "QuickAdd: Run QuickAdd",
+      "mode": "any"
+    }
+  ],
   "macros": [
     {
       "macro": [
