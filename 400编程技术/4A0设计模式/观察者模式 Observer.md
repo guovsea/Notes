@@ -158,14 +158,16 @@ public:
 };
 
 ```
+
 简单实现了一下 Oberver 模式。
+
 ```cpp
 #include <iostream>
 #include <list>
 
 class Observer {
   public:
-    virtual void update(const std::string &message) = 0;
+    virtual void update (const std::string &message) = 0;
 };
 
 class ConcreteObserver : public Observer {
@@ -221,6 +223,82 @@ int main() {
 
     return 0;
 ```
+
+通过访问器访问的版本（better）
+
+
+```cpp
+#include <iostream>
+#include <list>
+
+class Observer {
+  public:
+    Observer(Subject* sub){ m_sub = sub;}
+    virtual void update () = 0;
+  protected:
+    Subject m_sub;
+};
+
+class ConcreteObserver : public Observer {
+  public:
+    ConcreteObserver(Subject* sub, const std::string &name) : m_sub(sub), name(name) {}
+
+    void update() override {
+        ConcreteSubject* pSub = static_cast<ConcreteSubject*>(m_sub);
+        // 通过访问器访问所需要的数据
+        std::string mesesage = pSub->getState;
+        std::cout << name << " received message: " << message << std::endl;
+    }
+
+  private:
+    std::string name;
+};
+
+class Subject {
+  public:
+    void attach(Observer *observer) { observerList.push_back(observer); }
+    void detach(Observer *observer) {
+        observerList.remove(observer);
+    }
+    void notify(){
+        for (auto observer : observerList) {
+            observer->update();
+        }
+    }
+    std::list<Observer *> observerList;
+};
+
+class ConcreteSubject : public Subject {
+  public:
+    void setState(const std::string &state) {
+        this->state = state;
+        notify();
+    }
+    std::string getState() {
+        return state;
+    }
+
+  private:
+    std::string state;
+};
+
+int main() {
+    ConcreteObserver observer1("Observer 1");
+    ConcreteObserver observer2("Observer 2");
+
+    ConcreteSubject subject;
+    subject.attach(&observer1); // 订阅通知
+    subject.attach(&observer2);
+
+    subject.setState("Hello");
+
+    subject.detach(&observer1);
+
+    subject.setState("world");
+
+    return 0;
+```
+
 ## 总结
 
 

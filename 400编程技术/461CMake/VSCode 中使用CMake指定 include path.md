@@ -21,7 +21,7 @@
 }
 ```
 
-1. 使用插件 `CMake Tools` 编译
+1. **使用插件 `CMake Tools` 编译**  ** 重点！**
    > 纯 CMake 不会在 `build` 中生成 `compile_commands.json` 文件
    
 2. 创建 `.vscode/c_cpp_properties.json` 文件
