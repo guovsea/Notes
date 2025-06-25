@@ -117,6 +117,7 @@ int main(int argc, char const *argv[]) {
 }
 
 ```
+
 **一个`std::thread`对象被移动赋值或拷贝时，它会先调用`std::terminate()`终止当前线程，再去管理另一个线程**
 
 可以在函数中返回一个 thread 对象，因为可以对 thread 对象进行 RVO 或者移动赋值。
@@ -175,6 +176,7 @@ int main(int argc, char const *argv[]) {
     ThreadGuard thread_guard(t);
 }
 ```
+
 使用移动语义后，可以让类接管 thread 对象的所有权，原来的 thread 对象被移动后，就不能再通过原来的 thread 对象对实际的线程进行管理了，比如不能 join 或者 detach。
 
 ```cpp

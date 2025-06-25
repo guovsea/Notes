@@ -22,7 +22,7 @@ public:
     _LIBCPP_INLINE_VISIBILITY reference_wrapper(type& __f) _NOEXCEPT
         : __f_(_VSTD::addressof(__f)) {}
     private: reference_wrapper(type&&); public: // = delete; // do not bind to 
-    // 重载类型缓缓运算符
+    // 重载类型转换运算符
     operator type&    () const _NOEXCEPT {return *__f_;}
     type& get() const _NOEXCEPT {return *__f_;}
 ```

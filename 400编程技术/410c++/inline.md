@@ -33,6 +33,4 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make: *** [static_routing.app/Contents/MacOS/static_routing] Error 1
 ```
 
-**但实际上，按照 C++ 的语法而言，inline 就应该放在实现的前面（cpp 文件中）**
-
-Qt 声明内联只能把函数体定义在头文件中。
+原因是 inline 不会出符号，导致在头文件中的函数声明找不到定义。

@@ -21,6 +21,8 @@ Scope and linkage are distinguishable in that **scope is for the benefit of the 
 - Scope 是编译器将[[编译单元 Translation unit]]生成目标文件时，用于解决**编译单元内部标识符**可见性问题的
 - Linkage 是链接器用于链接目标文件时，用于解决**编译单元之间标识符可见性**的
 
+> 只有需要跨编译单元的符号才具有链接属性
+
 ## 链接属性的分类
 
 ### Internal linkage
@@ -41,7 +43,7 @@ _External linkage_ refers to things that exist beyond a particular translation 
 
 **不表示对象或函数的标识符不具有任何linkage**。因为**只有具有实体的标识符才具有 linkage**
 
-Identifiers that do not represent an object or a function, including labels, enumerators, `typedef` names that refer to entities with no linkage, type names, function parameters, and ![C++ only Begins](https://www.ibm.com/docs/en/SSGH3R_16.1.0/shared_source/graphics/ngcpp_begin.gif)template names
+Identifiers that do not represent an object or a function, including labels, enumerators, `typedef` names that refer to entities with no linkage, type names, function parameters, and template names
 ### Language linkage (C++ only)
 
 ```cpp

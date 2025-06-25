@@ -4,7 +4,9 @@ tags:
 ---
 ## 什么是动态分配（dynamic allocation）
 
-在程序运行时动态地分配内存空间的操作，所分配的内存块在堆区中[[堆和栈]]
+在程序运行时动态地分配内存空间的操作，所分配的内存块在堆区中
+
+> [[堆和栈]]
 
 ## 什么时候应该使用动态分配
 
@@ -20,14 +22,14 @@ tags:
 
 在 C++ 中，动态分配应该使用[[智能指针]]。除非：
 
-## 使用裸指针而非智能指针的场景
+## 可能会用到裸指针的地方
 
 （但在 C++ 总是有替代方案，因为 C++ 尽量避免使用指针）
 
 - 需要引用语义，更好的方法是使用引用
 - 需要多态性，但更好的方法是使用引用
 - 支持传入 `nullptr`，来表示参数是可选的，但更好的方式是使用 `std::optional`
-- 解耦编译单元以缩短编译时间 [[PIMP]]
+- 解耦编译单元以缩短编译时间 [[PIMP]]，但也能用智能指针
 - 需要与 C 库或 C 风格的库进行交互
 
 [c++ - Why should I use a pointer rather than the object itself? - Stack Overflow](https://stackoverflow.com/questions/22146094/why-should-i-use-a-pointer-rather-than-the-object-itself/)
