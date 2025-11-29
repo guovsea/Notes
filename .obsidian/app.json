@@ -3,7 +3,7 @@
   "strictLineBreaks": true,
   "alwaysUpdateLinks": true,
   "spellcheck": false,
-  "vimMode": false,
+  "vimMode": true,
   "promptDelete": false,
   "attachmentFolderPath": "./attachments",
   "newFileLocation": "current",
