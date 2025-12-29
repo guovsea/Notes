@@ -1,7 +1,7 @@
 ---
 tags:
   - Qt
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: 2025-12-29
 ---
 ## 描述
 

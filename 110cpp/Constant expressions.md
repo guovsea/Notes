@@ -5,6 +5,12 @@ tags:
 ---
 ## 概念
 
+Constant expressions 是编译期可以求值的表达式。
+
+不需要完全知道哪些表达式是 Constant expressions，要想知道某个表达式是不是 Constant expressions，只需要加上 constexpr specifier 编译器就能做检查。
+
+## constexpr 函数
+
 constexpr 函数并非必然编译期执行，需要一定条件。
 
 constexpr 函数并非 “必然编译期执行”，需同时满足以下条件才会触发编译期计算：
@@ -33,3 +39,23 @@ int main() {
 ```
 
 上述代码中，由于 ints 不是编译期常量，所以并没有在编译期执行，而是变成普通函数，在运行期执行。
+
+常量语境中，constexpr 才会生效：
+
+```cpp
+template <typename T>  
+requires std::integral<T> || std::floating_point<T>  
+constexpr double Average(std::vector<T> const &vec) {  
+    const double sum = std::accumulate(vec.begin(), vec.end(), 0.0);  
+    return sum / vec.size();  
+}  
+  
+constexpr double GetResult() {  
+    std::vector ints { 1, 2, 3, 4, 5};  
+    return Average(ints);  
+}  
+  
+int main() {  
+    static_assert(GetResult() == 3);  // ok
+}
+```
