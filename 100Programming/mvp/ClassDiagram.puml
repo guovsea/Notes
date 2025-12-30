@@ -1,0 +1,50 @@
+@startuml
+' -------------------
+' 抽象接口
+' -------------------
+interface IView {
+    +displayData()
+    +showError()
+}
+
+interface IModel {
+    +getData()
+    +saveData()
+}
+
+abstract class IPresenter {
+    -view: IView
+    -model: IModel
+    +attachView(view: IView)
+    +detachView()
+    +onUserAction()
+}
+
+' -------------------
+' 具体实现
+' -------------------
+class ConcreteView {
+    +displayData()
+    +showError()
+}
+
+class ConcretePresenter {
+    +onUserAction()
+    +updateView()
+}
+
+class Model {
+    +getData()
+    +saveData()
+}
+
+' -------------------
+' 关系
+' -------------------
+IPresenter --> IView
+IPresenter --> IModel
+ConcretePresenter --|> IPresenter
+ConcreteView --|> IView
+Model --|> IModel
+
+@enduml
