@@ -66,6 +66,16 @@ int main(int argc, char* argv[]) {
 - **在转发引用（`T&&`）中，直接用形参构造对象会走拷贝**
 - **要想保留调用者的值类别，必须使用 `std::forward<T>`**
 
+
+## 实现
+
+```cpp
+template<typename T>  
+std::remove_reference<T>::type&& move(T&& arg) noexcept {  
+    return static_cast<std::remove_reference<T>::type &&>(arg);  
+}
+```
+
 ## `std::forward`
 
 ### 背景
@@ -86,4 +96,69 @@ void bar(T && arg) {
 
 因此， **`std::forward ` 必须当形参是 Forwarding Reference 才有用**。
 
+## 实现
 
+```cpp
+template<typename T>  
+// std::remove_reference<T>& : 只接受作为左值的函数形参  
+T&& forward(typename std::remove_reference<T>::type& arg) noexcept {  
+    // Forwarding Reference 中， T = A& 或者 T = A    
+    return static_cast<T&&>(arg);  
+}  
+  
+template<typename T>  
+T&& forward(typename std::remove_reference<T>::type&& arg) noexcept {  
+    // 禁止把一个右值作为左值转发，会破坏引用语义  
+    static_assert(!std::is_lvalue_reference<T>::value, "cannot forward an rvalue as an lvalue");  
+    return static_cast<T&&>(arg);  
+}
+```
+
+实际上，`forward` 可以：
+
+- 将左值转发为左值，右值转发为右值（配合 Forwarding Reference）实现完美转发
+- 还可以将左值转换为右值，等价于 `std::move`
+- 但不能把右值作为左值转发，会破坏语义（把右值当绑定到了左值引用上），导致出现悬垂引用
+
+```cpp
+#include <iostream>
+#include <type_traits>
+
+
+struct Trace {
+    int id;
+
+    Trace(int i) : id(i) {
+        std::cout << "Trace(" << id << ") constructed\n";
+    }
+    ~Trace() {
+        std::cout << "Trace(" << id << ") destructed\n";
+    }
+};
+
+template<typename T>
+T&& bad_forward(std::remove_reference_t<T>&& arg) {
+    // ❌ 没有 static_assert
+    return static_cast<T&&>(arg);
+}
+
+
+int main() {
+    std::cout << "---- begin ----\n";
+    Trace& ref = bad_forward<Trace&>(Trace{42});
+    std::cout << "---- after forward ----\n";
+    std::cout << "ref.id = " << ref.id << "\n"; //  UB
+    std::cout << "---- end ----\n";
+}
+```
+
+直接析构了还能通过引用访问，非常危险
+
+```
+---- begin ----
+Trace(42) constructed
+Trace(42) destructed
+---- after forward ----
+ref.id = 42
+---- end ----
+```
