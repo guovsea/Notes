@@ -123,7 +123,7 @@ concept has_string_data_member = requires(T v) {
 };
 
 // 检测接口（要求 T 有 start/stop/getTime 成员函数，不限制返回值）
-template <typename T>
+    template <typename T>
 concept Clock = requires(T c) { 
     c.start();  
     c.stop();
