@@ -1,1 +1,0 @@
-[C++文件读写详解（ofstream,ifstream,fstream）\_c++ 文件读写-CSDN博客](https://blog.csdn.net/kingstar158/article/details/6859379)

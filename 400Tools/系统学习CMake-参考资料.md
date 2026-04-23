@@ -1,0 +1,23 @@
+---
+tags:
+  - tools
+  - tools/cmake
+  - reference
+  - type/reference
+mastery: 5
+---
+- CMake-Cookbook
+
+## GitHub
+
+[GitHub - Akagi201/learning-cmake: learning cmake](https://github.com/Akagi201/learning-cmake)
+
+[GitHub - ttroy50/cmake-examples: Useful CMake Examples](https://github.com/ttroy50/cmake-examples)
+
+## Books
+
+[GitHub - BrightXiaoHan/CMakeTutorial: CMake中文实战教程](https://github.com/BrightXiaoHan/CMakeTutorial)
+
+[An Introduction to Modern CMake · Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
+
+[致读者 | Cccolt 个人主页](https://www.cccolt.top/tutorial/cmake/)

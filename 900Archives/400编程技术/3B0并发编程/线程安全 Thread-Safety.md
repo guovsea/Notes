@@ -1,1 +1,0 @@
-A _thread-safe_ function can be called simultaneously from multiple threads, even when the invocations use shared data, because all references to the shared data are serialized.

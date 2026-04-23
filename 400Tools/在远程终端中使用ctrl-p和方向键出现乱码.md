@@ -1,0 +1,9 @@
+---
+tags:
+  - tools/editor
+  - type/howto
+---
+换一个SHELL
+
+之前使用的系统默认的`/bin/sh`，换成 zsh 就没有出现这种情况了
+
