@@ -1,6 +1,4 @@
 ---
-tags:
-  - cpp/机制
 ---
 According to [standard C++](http://www.efnetcpp.org/wiki/ISO/IEC_14882) ([wayback machine link](http://web.archive.org/web/20070403232333/http://www.efnetcpp.org/wiki/ISO/IEC_14882)) : 
 

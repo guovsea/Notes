@@ -1,8 +1,4 @@
 ---
-tags:
-  - reference
-  - architecture
-  - interactive
 ---
 
 # Interactive Application Architecture Patterns
@@ -10,7 +6,6 @@ tags:
 **来源**：Aspiring Craftsman 博客文章（2007‑08‑25）  
 **作者**：Derek Greer  
 **链接**：[Web Archive](https://web.archive.org/web/20110424040641/http://www.aspiringcraftsman.com/2007/08/25/interactive-application-architecture/)
-
 ---
 
 ## 1. 引言
@@ -23,7 +18,6 @@ tags:
     
 - **核心观点**：模式应从问题出发选择，而非为了使用模式而使用模式。
     
-
 ---
 
 ## 2. Model-View-Controller（MVC）
@@ -65,7 +59,6 @@ tags:
     
 - 分离关注点主要通过 Observer Pattern，而非 Controller。
     
-
 ---
 
 ## 3. Model-View-Presenter（MVP）
@@ -91,7 +84,6 @@ tags:
         
     - **Supervising Controller**：部分逻辑留在 View 中
         
-
 ---
 
 ## 4. Presentation-Abstraction-Control（PAC）
@@ -111,7 +103,6 @@ tags:
     
 - 每个 PAC 节点既能独立工作，也能与其他节点协作。
     
-
 ---
 
 ## 5. 模式比较与选择建议
@@ -130,7 +121,6 @@ tags:
     
 3. 不必严格按原始形式实现。
     
-
 ---
 
 ## 6. 总结与思考

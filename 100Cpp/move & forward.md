@@ -1,7 +1,4 @@
 ---
-tags:
-  - cpp
-  - cpp/机制
 date: 2026-01-03
 ---
 ## `std::move`

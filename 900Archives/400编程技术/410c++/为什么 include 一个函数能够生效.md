@@ -1,6 +1,4 @@
 ---
-tags:
-  - cpp/机制
 ---
 为什么 include 了声明某个函数的头文件就能使用这个定义在别的[[编译单元 Translation unit]] 中的函数？
 

@@ -1,6 +1,4 @@
 ---
-tags:
-  - cpp/语法
 ---
 ## 什么是动态分配（dynamic allocation）
 

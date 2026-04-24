@@ -1,6 +1,4 @@
 ---
-tags:
-  - cpp/技巧
 ---
  
 [c++ - How do I call ::std::make\_shared on a class with only protected or private constructors? - Stack Overflow](https://stackoverflow.com/questions/8147027/how-do-i-call-stdmake-shared-on-a-class-with-only-protected-or-private-const?rq=1)

@@ -1,6 +1,4 @@
 ---
-tags:
-  - cpp/STL
 ---
 ## std::ref
 

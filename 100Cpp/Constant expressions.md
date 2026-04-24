@@ -1,8 +1,4 @@
 ---
-tags:
-  - cpp
-  - cpp20
-  - cpp/template
 ---
 ## 概念
 

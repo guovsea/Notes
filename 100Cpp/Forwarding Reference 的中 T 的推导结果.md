@@ -1,7 +1,4 @@
 ---
-tags:
-  - 误区纠正
-  - cpp/机制
 ---
 **在 [[Forwarding Reference & Universal Reference]] 中，传入的表达式为左值时，T = &A；表达式为右值时，T = A**
 
