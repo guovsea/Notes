@@ -1,20 +1,11 @@
 [
-  "easy-typing-obsidian",
+  "obsidian-hover-editor",
+  "obsidian-file-cleaner",
+  "obsidian-git",
+  "mermaid-tools",
   "obsidian-auto-link-title",
   "obsidian-paste-image-rename",
-  "obsidian-minimal-settings",
+  "easy-typing-obsidian",
   "file-explorer-note-count",
-  "obsidian-quiet-outline",
-  "obsidian-style-settings",
-  "obsidian-tasks-plugin",
-  "cmdr",
-  "obsidian-hover-editor",
-  "tag-wrangler",
-  "obsidian-file-cleaner",
-  "calendar",
-  "contribution-graph",
-  "dataview",
-  "obsidian-git",
-  "templater-obsidian",
-  "quickadd"
+  "obsidian-style-settings"
 ]
