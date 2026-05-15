@@ -11,5 +11,6 @@
     "extended-colorschemes"
   ],
   "baseFontSizeAction": false,
-  "nativeMenus": true
+  "nativeMenus": true,
+  "showRibbon": true
 }
